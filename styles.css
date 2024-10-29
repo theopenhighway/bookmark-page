@@ -1,13 +1,14 @@
 body {
     margin: 0;
     font-family: "Rubik",sans-serif;
+    padding: 2em 10vh;
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2em;
+    /* padding: 2em; */
     align-items: center;
 }
 
@@ -66,4 +67,30 @@ text-decoration: none;
     background-color: white;
     border:2px solid hsl(0, 94%, 66%);
     color: hsl(0, 94%, 66%);
+}
+
+.purple-button {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 0.5em;
+}
+
+.purple-button:hover {
+    background-color: white;
+    border:2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.desc-main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
