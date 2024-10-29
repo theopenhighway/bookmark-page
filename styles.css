@@ -94,3 +94,8 @@ text-decoration: none;
     flex-direction: column;
     justify-content: center;
 }
+
+.desc {
+
+    text-align: center;
+}
