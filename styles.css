@@ -86,11 +86,11 @@ text-decoration: none;
 .intro {
     display: flex;
     flex-direction: row;
+    padding: 4em 0;
 }
 
 .desc-main {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
