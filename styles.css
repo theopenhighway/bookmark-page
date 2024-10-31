@@ -60,6 +60,8 @@ text-decoration: none;
     border: none;
     font-size: 0.8em;
     border-radius: 0.5em;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -68,6 +70,8 @@ text-decoration: none;
     border:2px solid hsl(0, 94%, 66%);
     color: hsl(0, 94%, 66%);
     font-size: 0.8em;
+    height: 100%;
+    width: 100%;
 }
 
 .purple-button {
@@ -85,6 +89,27 @@ text-decoration: none;
     border:2px solid hsl(231, 69%, 60%);
     color: hsl(231, 69%, 60%);
     font-size: 0.8em;
+    height: 100%;
+    width: 100%;
+}
+
+.grey-button {
+    background-color: hsl(240, 6%, 97%);
+    color:  rgb(84, 84, 84);
+    border: none;
+    font-size: 0.8em;
+    border-radius: 0.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.grey-button:hover {
+    background-color: white;
+    border:2px solid black;
+    color: black;
+    font-size: 0.8em;
+    height: 100%;
+    width: 100%;
 }
 
 .intro {
@@ -101,6 +126,7 @@ text-decoration: none;
 
 .desc {
     text-align: center;
+    max-width: 30em;
 }
 
 .buttons {
