@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Rubik",sans-serif;
-    padding: 2em 10vh;
+    padding: 2em 15vh;
 }
 
 header {
@@ -58,7 +58,7 @@ text-decoration: none;
     background-color: hsl(0, 94%, 66%);
     color: white;
     border: none;
-    font-size: 1em;
+    font-size: 0.8em;
     border-radius: 0.5em;
 
 }
@@ -67,20 +67,24 @@ text-decoration: none;
     background-color: white;
     border:2px solid hsl(0, 94%, 66%);
     color: hsl(0, 94%, 66%);
+    font-size: 0.8em;
 }
 
 .purple-button {
     background-color: hsl(231, 69%, 60%);
     color: white;
     border: none;
-    font-size: 1em;
+    font-size: 0.8em;
     border-radius: 0.5em;
+    height: 100%;
+    width: 100%;
 }
 
 .purple-button:hover {
     background-color: white;
     border:2px solid hsl(231, 69%, 60%);
     color: hsl(231, 69%, 60%);
+    font-size: 0.8em;
 }
 
 .intro {
@@ -99,8 +103,34 @@ text-decoration: none;
     text-align: center;
 }
 
-.faq, .browser-download, .features{
+.buttons {
+    display:flex;
+    Width: 20em;
+    height: 2.5em;
+    column-gap: 1em;
+}
+
+.faq, .download, .features{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.browser-download {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel > a {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+  justify-content: center;
+  padding: 1em 2em;  
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
