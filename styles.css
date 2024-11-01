@@ -198,7 +198,7 @@ text-decoration: none;
     column-gap: 6em;
 }
 
-.carousel > .menu > div > div input[type="radio"] {
+input[type="radio"] {
     opacity: 0;
 }
 .carousel > .menu > div > div input[type="radio"]:checked + label {
@@ -249,6 +249,32 @@ text-decoration: none;
     position: absolute;
     z-index: -1;
     bottom: 3em;
+  }
+
+  .browser-download {
+    column-gap: 2em;
+  }
+
+  .window {
+    box-shadow: 0 10px 20px 5px hsla(231, 69%, 60%, 0.14);
+    width: 18em;
+    height: 22em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+  }
+
+  .window:nth-child(2) {
+    margin-top: 2.5em;
+  }
+  .window:last-child {
+    margin-top: 5em;
+  }
+  .window p, .window h3 {
+    margin: 0;
+    padding: 0.2em
   }
 
   .contact-us {
