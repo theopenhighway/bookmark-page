@@ -96,6 +96,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [CSS-Only Carousel](https://css-tricks.com/css-only-carousel/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.w3schools.com/howto/howto_js_accordion.asp) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-[](https://stackoverflow.com/questions/19412204/how-do-you-make-the-radio-button-text-to-be-clickable-too)
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
