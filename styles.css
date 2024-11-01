@@ -266,6 +266,9 @@ input[type="radio"] {
     border-radius: 0.5em;
   }
 
+  .window img {
+    padding: 2em 0;
+  }
   .window:nth-child(2) {
     margin-top: 2.5em;
   }
@@ -277,6 +280,7 @@ input[type="radio"] {
     padding: 0.2em
   }
 
+
   .contact-us {
     background-color: hsl(231, 69%, 60%);
     display: flex;
@@ -287,5 +291,5 @@ input[type="radio"] {
   footer {
     background-color: hsl(229, 31%, 21%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
