@@ -320,15 +320,56 @@ input[type="radio"] {
   }
 
 
-  .contact-us {
-    background-color: hsl(231, 69%, 60%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   footer {
     background-color: hsl(229, 31%, 21%);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 15vh;
   }
+
+  footer  .nav-foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3em;
+  }
+
+  footer  nav > ul > li {
+    color: white;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  
+footer > div >nav > ul > li:hover {
+color: hsl(0, 94%, 66%);
+cursor: pointer;
+}
+
+footer > div> nav > ul >li > a {
+color: inherit;
+text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5em;
+}
+.accordion {
+    max-width: 35em;
+    padding: 2em 0;
+}
+
+.contact-us {
+    height: 15em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(231, 69%, 60%);
+}
