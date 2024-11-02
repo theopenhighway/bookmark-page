@@ -35,7 +35,7 @@ header > div {
     display: flex;
     flex-direction: row;
     width: 40%;
-    justify-content: space-around;
+
     align-items: center;
  
 }
@@ -54,6 +54,7 @@ nav > ul {
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+    column-gap: 2em;
     
 
 }
