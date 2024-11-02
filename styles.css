@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: "Rubik",sans-serif;
-    /* padding: 2em 15vh; */
 }
 
 h1 {
@@ -84,6 +83,8 @@ text-decoration: none;
     border-radius: 0.5em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 
 }
 
@@ -94,6 +95,8 @@ text-decoration: none;
     font-size: 0.8em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 }
 
 .purple-button {
@@ -104,6 +107,8 @@ text-decoration: none;
     border-radius: 0.5em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 }
 
 .purple-button:hover {
@@ -113,6 +118,8 @@ text-decoration: none;
     font-size: 0.8em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 }
 
 .grey-button {
@@ -123,6 +130,8 @@ text-decoration: none;
     border-radius: 0.5em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 }
 
 .grey-button:hover {
@@ -132,6 +141,8 @@ text-decoration: none;
     font-size: 0.8em;
     height: 100%;
     width: 100%;
+    font-family: "Rubik",sans-serif;
+
 }
 
 .intro {
@@ -372,4 +383,34 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     background-color: hsl(231, 69%, 60%);
+}
+
+.contact-us p, .contact-us h2 {
+    color: white;
+}
+
+.form {
+    width: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.question {
+    width: 100%;
+    text-align: left;
+    padding: 1em 0;
+    border-right: none;
+    border-left: none;
+    background-color: white;
+    color: #242A45;
+    font-family: "Rubik",sans-serif;
+
+    
+}
+
+.question:after {
+    content: url(images\icon-arrow.svg);
 }
