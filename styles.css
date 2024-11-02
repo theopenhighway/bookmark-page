@@ -406,8 +406,8 @@ text-decoration: none;
     padding: 1em 0;
     border-right: none;
     border-left: none;
-    /* border-top: 1px solid hsl(229, 8%, 60%);
-    border-bottom: 1px solid hsl(229, 8%, 60%); */
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom:none;
 
     background-color: white;
     color: #242A45;
@@ -419,7 +419,7 @@ text-decoration: none;
 .active, .question:hover {
     background-color: #ccc;
   }
-
+  .hidden { display:none; }
 /* 
 .question:after {
     content: url('images\icon-arrow.svg'); 
@@ -428,9 +428,7 @@ text-decoration: none;
 
 .answer{
     overflow: hidden;
-    display: none;
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.5s ease-out;
 }
 
 .question:after {
