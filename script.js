@@ -1,19 +1,34 @@
-var acc = document.getElementsByClassName("question");
-var i;
+// document.querySelectorAll(".question").forEach((button) => {
+//    button.addEventListener('click', () => {
+//       console.log(button.nextElementSibling)
+//       button.nextElementSibling.classList.toggle("hidden")
+//       // console.log(button.nextElementSibling.innerHTML)
+//       // button.classList.remove('active')
 
-document.querySelectorAll(".question").forEach(button => {
-   button.addEventListener('click', () => {
+
       
-      document.querySelectorAll(".question").forEach(item => {
-         if (item !== button) {
+//    })
+
+// })
+
+const faqQuestion = document.querySelectorAll('.question')
+
+faqQuestion.forEach(question => {
+   question.addEventListener('click', () => {
+      faqQuestion.forEach(item => {
+         if (item !== question) {
             item.classList.remove('active')
-            button.nextElementSibling.classList.toggle("hidden")
+            console.log(item)
          }
       })
 
-      button.classList.toggle('active')
+      question.classList.toggle('active')
+      const answer = question.nextElementSibling
 
-      const answer = button.nextElementSibling;
-      
+      if (answer.computedStyleMap.maxHeight) {
+         answer.computedStyleMap.maxHeight = null
+      } else {
+         answer.computedStyleMap.maxHeight = answer.scrollHeight + 'px'
+      }
    })
 })
