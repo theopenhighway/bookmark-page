@@ -232,16 +232,22 @@ input[type="radio"] {
 
 .slide-container {
     overflow-x: hidden;
+    /* position: absolute; */
+ 
+
    
 }
 
 .slides {    
+   
     transition: transform 600ms ease-in-out;
+    /* max-height: 25em; */
 }
 
 
 .slide-content {
   /* position: absolute; */
+
     transform: translateX(-100%);
     display: flex;
     flex-direction: row;
@@ -260,21 +266,11 @@ input[type="radio"] {
 }
 
 input:checked + .slide-content {
- 
     transform: translatex(0);
     opacity: 1;
     z-index: 1;
-
- 
 }
 
-.carousel > .menu > div > div input[type="radio"]:checked + .slide-content {
-    transform: translateX(0);
-    transform: translateX(0) rotate(0); 
-    opacity: 1;
-    z-index: 1;
-}
-    
 
 .rectangle-right {
     width: 35em;
@@ -405,10 +401,6 @@ text-decoration: none;
 .form {
     width: 25em;
     height: 2.5em;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
     margin-top: 2em;
     column-gap: 1em;
     display: grid;
