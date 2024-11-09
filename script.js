@@ -1,16 +1,3 @@
-// document.querySelectorAll(".question").forEach((button) => {
-//    button.addEventListener('click', () => {
-//       console.log(button.nextElementSibling)
-//       button.nextElementSibling.classList.toggle("hidden")
-//       // console.log(button.nextElementSibling.innerHTML)
-//       // button.classList.remove('active')
-
-
-      
-//    })
-
-// })
-
 const faqQuestion = document.querySelectorAll('.question')
 
 faqQuestion.forEach(question => {
