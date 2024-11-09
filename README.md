@@ -55,12 +55,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop-first workflow
+- Javascript
 
 ### What I learned
 
@@ -82,9 +78,6 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -96,17 +89,14 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [CSS-Only Carousel](https://css-tricks.com/css-only-carousel/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.w3schools.com/howto/howto_js_accordion.asp) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--[](https://stackoverflow.com/questions/19412204/how-do-you-make-the-radio-button-text-to-be-clickable-too)
--[CSS: Sliding an image with radio:checked (Pure CSS slider)](https://stackoverflow.com/questions/42405127/css-sliding-an-image-with-radiochecked-pure-css-slider)
--[](https://medium.com/@francesco.saviano87/building-a-simple-faq-accordion-with-html-css-and-javascript-2a8aed32badf)
--[](https://stackoverflow.com/questions/63508460/nextelementsibling-not-capturing-css-style)
+- [How do you make the radio button text to be clickable too?](https://stackoverflow.com/questions/19412204/how-do-you-make-the-radio-button-text-to-be-clickable-too)
+- [CSS: Sliding an image with radio:checked (Pure CSS slider)](https://stackoverflow.com/questions/42405127/css-sliding-an-image-with-radiochecked-pure-css-slider)
+- [Building a Simple FAQ Accordion with HTML, CSS, and JavaScript](https://medium.com/@francesco.saviano87/building-a-simple-faq-accordion-with-html-css-and-javascript-2a8aed32badf)
+- [nextElementSibling not capturing CSS style](https://stackoverflow.com/questions/63508460/nextelementsibling-not-capturing-css-style)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
