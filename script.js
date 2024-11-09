@@ -18,17 +18,17 @@ faqQuestion.forEach(question => {
       faqQuestion.forEach(item => {
          if (item !== question) {
             item.classList.remove('active')
-            console.log(item)
+            item.nextElementSibling.style.maxHeight = null;
          }
       })
 
       question.classList.toggle('active')
       const answer = question.nextElementSibling
 
-      if (answer.computedStyleMap.maxHeight) {
-         answer.computedStyleMap.maxHeight = null
+      if (answer.style.maxHeight) {
+         answer.style.maxHeight = null
       } else {
-         answer.computedStyleMap.maxHeight = answer.scrollHeight + 'px'
+         answer.style.maxHeight = answer.scrollHeight + 'px'
       }
    })
 })
