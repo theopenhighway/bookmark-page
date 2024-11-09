@@ -1,4 +1,5 @@
 const faqQuestion = document.querySelectorAll('.question')
+const email = document.getElementById("email").value
 
 faqQuestion.forEach(question => {
    question.addEventListener('click', () => {
@@ -19,3 +20,4 @@ faqQuestion.forEach(question => {
       }
    })
 })
+
