@@ -19,6 +19,7 @@ h3 {
     color: #242A45;
 }
 
+
 p {
     color: hsl(229, 8%, 60%)
 }
@@ -39,6 +40,11 @@ header > div {
  
 }
 
+.intro img {
+   /* max-width: 100%;
+   height: auto;
+   width: auto; */
+}
 .burger-button {
     display: none;
 }
@@ -284,13 +290,14 @@ input:checked + .slide-content {
   }
 
   .rectangle-left {
-    width: 48em;
+    width: 35em;
     height: 28em;
     background-color: hsl(231, 69%, 60%);
     border-radius: 50% 0 0 50%;
     position: absolute;
     z-index: -1;
     bottom: 2em;
+    right: 1px;
     position:absolute;
     /* top: -1px */
   }
@@ -471,10 +478,15 @@ text-decoration: none;
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
+    body {
+        width: 100%;
+    }
 
     header {
         padding: 3em 5vh;
+        /* width: 100%; */
+        margin: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -486,6 +498,9 @@ text-decoration: none;
         justify-content: end;
         
     }
+    img {
+        max-width: 100%;
+    }
 
     nav {
         display: none;
@@ -493,5 +508,20 @@ text-decoration: none;
 
     .burger-button {
         display: block;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .browser-download {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .window {
+        margin: 0;
     }
   }
