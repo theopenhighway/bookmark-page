@@ -233,11 +233,7 @@ input[type="radio"] {
 
 .slide-container {
     overflow-x: hidden;
-    /* position: absolute; */
     margin-bottom: 8em;
- 
-
-   
 }
 
 .slides {    
@@ -250,7 +246,7 @@ input[type="radio"] {
 
 
 .slide-content {
-  position: absolute;
+    position: absolute;
     
     transform: translateX(-100%);
     display: flex;
@@ -260,6 +256,7 @@ input[type="radio"] {
     column-gap: 6em;
     opacity: 0;
     /* height: 0; */
+    width:75em;
     transition: opacity .5s ease-out, transform .5s ease-out;
 }
 
