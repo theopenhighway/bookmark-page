@@ -209,29 +209,22 @@ text-decoration: none;
 .carousel > .menu > div {
     display: flex;
     flex-direction: row;
+    
+   
 }
-
-.carousel > .menu > div >div {
-    border-bottom: 1px solid hsl(229, 8%, 60%);
+.carousel > .menu > div >label >div
+{
     padding: 1.5em 2em;
-   flex-direction: column;
-    display: flex;
-   
-}
-
-.carousel > .menu > div >div:hover {
-    border-bottom:2px solid hsl(0, 94%, 66%);
-   
-}
-
-
-
-.carousel > .menu > div > div label, .carousel > .menu > div > div input {
+    column-gap: 2em;
+    border-bottom: 1px solid hsl(229, 8%, 60%);
     color: hsl(229, 8%, 60%);
-    text-decoration: none;
-    display: flex;
-    column-gap: 6em;
 }
+
+.carousel > .menu > div >label >div:hover {
+    border-bottom:2px solid hsl(0, 94%, 66%);
+    color: black;
+}
+
 
 input[type="radio"] {
     display: none;
@@ -277,6 +270,10 @@ input:checked + .slide-content {
     z-index: 1;
 }
 
+input:checked + .carousel > .menu > div >label >div {
+    border-bottom:2px solid hsl(0, 94%, 66%);
+    color: black;
+}
 
 .rectangle-right {
     width: 35em;
