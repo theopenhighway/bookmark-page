@@ -219,6 +219,13 @@ text-decoration: none;
    
 }
 
+.carousel > .menu > div >div:hover {
+    border-bottom:2px solid hsl(0, 94%, 66%);
+   
+}
+
+
+
 .carousel > .menu > div > div label, .carousel > .menu > div > div input {
     color: hsl(229, 8%, 60%);
     text-decoration: none;
@@ -247,7 +254,6 @@ input[type="radio"] {
 
 .slide-content {
     position: absolute;
-    
     transform: translateX(-100%);
     display: flex;
     flex-direction: row;
@@ -255,7 +261,6 @@ input[type="radio"] {
     padding: 5em 0;
     column-gap: 6em;
     opacity: 0;
-    /* height: 0; */
     width:75em;
     transition: opacity .5s ease-out, transform .5s ease-out;
 }
